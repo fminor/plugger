@@ -24,5 +24,5 @@ API implementations:
 ## Organization
 
 * cmd/
-* protocol/
+* operation/
 * add-plugin/
