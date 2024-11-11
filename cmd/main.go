@@ -61,8 +61,10 @@ func init() {
 
 func PerformComputations(x float64, y float64) {
 	for _, plg := range pluginList {
+		n := (*plg).Name()
+		t := (*plg).Symbol()
 		r := (*plg).Compute(x, y)
-		fmt.Println("Operation: ", plg, "X: ", x, " Y: ", y, "=", r)
+		fmt.Println(n+": ", x, t, y, "=", r)
 	}
 }
 
