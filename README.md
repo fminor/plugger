@@ -2,6 +2,14 @@
 
 A practical walkthrough of creating an application that uses plugins.
 
+## Quick start
+
+```sh
+./clean.sh
+./build.sh
+./run.sh
+```
+
 ## References
 
 * [Tutorial: Plugins with Go](https://medium.com/profusion-engineering/plugins-with-go-7ea1e7a280d3)
