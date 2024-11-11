@@ -1,3 +1,6 @@
 [
-    "add-plugin/plugin.so"
+    "add-plugin/plugin.so",
+    "sub-plugin/plugin.so",
+    "div-plugin/plugin.so",
+    "mul-plugin/plugin.so"
 ]
